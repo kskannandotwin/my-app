@@ -3,6 +3,8 @@ import GreetingClass from "./core-concepts/02-components/GreetingClass";
 import PropsExample from "./core-concepts/04-props/PropsExample";
 import JsxExample from "./core-concepts/03-jsx/JsxExample";
 import StateExample from "./core-concepts/05-state/StateExample";
+import EventHandlingExample from "./core-concepts/06-event-handling/EventHandlingExample";
+import SimpleForm from "./core-concepts/06-event-handling/SimpleForm";
 
 function App() {
   // return <HelloWorld />;
@@ -11,7 +13,9 @@ function App() {
   // return <JsxExample />;
   return (
     // <PropsExample technology="Javascript" title="Welcome to React Course" />
-    <StateExample />
+    // <StateExample />
+    // <EventHandlingExample />
+    <SimpleForm />
   );
 }
 
