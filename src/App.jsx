@@ -5,6 +5,7 @@ import JsxExample from "./core-concepts/03-jsx/JsxExample";
 import StateExample from "./core-concepts/05-state/StateExample";
 import EventHandlingExample from "./core-concepts/06-event-handling/EventHandlingExample";
 import SimpleForm from "./core-concepts/06-event-handling/SimpleForm";
+import ListExample from "./core-concepts/07-list-keys/ListExample";
 
 function App() {
   // return <HelloWorld />;
@@ -15,7 +16,8 @@ function App() {
     // <PropsExample technology="Javascript" title="Welcome to React Course" />
     // <StateExample />
     // <EventHandlingExample />
-    <SimpleForm />
+    // <SimpleForm />
+    <ListExample />
   );
 }
 
