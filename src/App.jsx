@@ -6,6 +6,7 @@ import StateExample from "./core-concepts/05-state/StateExample";
 import EventHandlingExample from "./core-concepts/06-event-handling/EventHandlingExample";
 import SimpleForm from "./core-concepts/06-event-handling/SimpleForm";
 import ListExample from "./core-concepts/07-list-keys/ListExample";
+import TaskManager from "./core-concepts/08-task-manager/TaskManager";
 
 function App() {
   // return <HelloWorld />;
@@ -17,7 +18,8 @@ function App() {
     // <StateExample />
     // <EventHandlingExample />
     // <SimpleForm />
-    <ListExample />
+    // <ListExample />
+    <TaskManager />
   );
 }
 
